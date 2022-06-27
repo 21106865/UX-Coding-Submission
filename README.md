@@ -8,7 +8,7 @@ Checklist as proposed by W3.org to assess the accessibility of a web page.
 
 A suitable page title was chosen 'UX coding submission' as it is important to orient users. The page title is the first thing a page reader says so it helps users recognsie which page they are on.
 
-2. Heading tags 
+2. Heading tags
 
 H1, H2, H3 and p tags were used to create a meaningful hierarchy. H1 was the primary header for the page with h2 breaking up sections. This helps people naviagte to relevant parts of the page by tabbing to each header.
 
@@ -20,8 +20,7 @@ Alt text was used for images on the webapge to describe the context of the image
 
 Main content has a contrast ration of 18.9:1, passing WCAG AAA, quote having a contrast of 8.02:1, passing WCAG AAA and the button haivng a contrast of 8.91:1, passing WCAG AAA. This increases the readability, and aids individuals with visual impairments to read the content.
 
-
-5. Resize text 
+5. Resize text
 
 Content can be enlarged without breaking any of the components. All parts of the text can be viewed when enlarged, allowing for individuals that require increased text size to read. No content should be cut off as the size of the sections are relative to the size of the content inside them.
 
