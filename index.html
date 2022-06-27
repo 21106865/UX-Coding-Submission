@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="UX Coding Submission website" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="21106865" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UX Coding Submission</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/4530d5f797.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Responsive Nav Bar -->
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <!-- Main Header & Title -->
+    <section class="big-image">
+      <div class="image-content">
+        <h1>The Environmental Impact of Cryptocurrency</h1>
+      </div>
+    </section>
+
+    <!-- Main Page Content -->
+    <section class="main-content">
+      <h2>Cryptocurrency: the modern-day coal?</h2>
+      <p>
+        ‘Mining Crypto’ has become a household term after the surge of
+        popularity into cryptocurrencies, with social media giants such as Elon
+        Musk fuelling the frenzy into the industry.
+      </p>
+
+      <p>
+        <a href="https://protect-eu.mimecast.com/s/RcRsCgxJBTwkp3PIN3Ihi?domain=time.com"
+          >Time magazine</a
+        >
+        reports that the cryptocurrency industry is now worth more than $3
+        trillion, as investors are drawn into the prospects of making a lot of
+        money by taking advantage of this cultural trend to move away from the
+        traditional banking system.
+      </p>
+
+      <h3>How does someone acquire cryptocurrency?</h3>
+
+      <p>
+        Bitcoin is rewarded to those who complete a block of verified
+        transactions, that are then added to a blockchain. In other words, you
+        must complete an extremely complex computational maths problem, and the
+        computer that solves the problem first receives the next block of
+        bitcoin. This process is known as mining, and like its name counterpart
+        using huge machinery to extract minerals from the earth, the
+        sophisticated hardware required to complete the problems means there’s a
+        huge capital requirement to start the crypto mining process.
+      </p>
+
+      <div class="quote">
+      <blockquote>Cryptocurrency is painstaking, costly, and only sporadically
+        rewarding.</blockquote>
+      </div>
+        <div class="caption">
+        <a href="https://protect-eu.mimecast.com/s/hI0YCjvRGsG9PrlFRqwgr?domain=investopedia.com">Euny Hony, Investopedia (2022)</a>
+      </div>
+
+
+      <h3>The environmental implications</h3>
+
+      <p>
+        Cryptocurrency mining is highly energy-intensive due to the operations
+        cost of the hardware needed to run the algorithms. Fossil fuels are
+        being used as the primary source of energy to mine cryptocurrency,
+        <a href="https://protect-eu.mimecast.com/s/m3hbCkwRJiXN1EYtQPeg1?domain=digiconomist.net"
+          >Digiconomist</a
+        >
+        estimates that Bitcoin is responsible for 144 million tons of carbon
+        dioxide per year, equivalent to the amount the Czech Republic produces.
+      </p>
+      <section class="secondary-image">
+        <img class="responsive-image"
+          src="img/Carbon-Footprint-of-Bitcoin.png"
+          class="resonsive-image"
+          alt="Bitcoin's enegrgy consumption is greater than Pakistan, Greece, and New Zealand"
+        />
+      </section>
+    </section>
+
+    <!-- Embedded Content -->
+      <section class="embedded-content-container">
+        <div class="embedded-content">
+          <h4>Bitcoin's effect on the environment</h4>
+          <iframe
+            src="https://www.youtube.com/embed/lNGwQhXfB88"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
+      </section>
+
+      <!-- Subscribe Form -->
+      <section class="form-container">
+        <Div class= form-header>
+          <h3>Let us know your thoughts on cryptocurrency's imapact on the environment </h3>
+        </Div>
+
+        <form id="form">
+
+            <p>
+                <label for="contact-name">Your name</label>
+                <input id="contact-name" type="text" name="contact-name" required>
+            </p>
+            <p>
+                <label for="contact-email">Your email</label>
+                <input id="contact-email" type="email" name="contact-email" required>    
+            </p>
+            
+            <p>
+              <label for="country">Where do you currently live?</label>
+              <select id="select-country" name="country">
+                <option value="australia">Please Select</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <option value="usa">USA</option>
+              </select>
+            </p>
+            <p>
+              <label for="contact-message">Your message</label>
+              <textarea id="contact-message" name="contact-message" rows="5"> </textarea>
+          </p>    
+         
+          <div class="button">
+          <button id=submit_button class="primary-button" role="button" input type=submit>Submit</button>
+          </div>             
+        </form>   
+      </section>
+
+      <section class="footer">
+        <p>Student ID: 21106865</p>
+      </section>
+
+  </body>
+</html>
